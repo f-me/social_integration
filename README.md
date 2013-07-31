@@ -70,7 +70,7 @@ You can also specify the URL that it links to:
 
 Here are the mapping of attributes depending on you data-type parameter
 
-<html>
+```
 | data-type         | standard  | custom :"data-*" prefixed  |
 --------------------------------------------------------------
 | link (default)    | title     | data-title                 |
@@ -80,13 +80,4 @@ Here are the mapping of attributes depending on you data-type parameter
 |                   | image     | data-source                |
 | quote             | title     | data-quote                 |
 |                   |           | data-source                |
-</html>
-
-
-<dl>
-  <dt>Definition list</dt>
-  <dd>Is something people use sometimes.</dd>
-
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
-</dl>
+```
