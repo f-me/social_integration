@@ -70,7 +70,7 @@ You can also specify the URL that it links to:
 
 Here are the mapping of attributes depending on you data-type parameter
 
-
+&#124;
 | data-type         | standard  | custom :"data-*" prefixed  |
 --------------------------------------------------------------
 | link (default)    | title     | data-title                 |
@@ -87,3 +87,4 @@ Here are the mapping of attributes depending on you data-type parameter
 | First row     | Data          | Very long data entry |
 | Second row    | **Cell**      | *Cell*               |
 | Third row     | Cell that spans across two columns  ||
+&#124;
