@@ -70,7 +70,7 @@ You can also specify the URL that it links to:
 
 Here are the mapping of attributes depending on you data-type parameter
 
-&#124;
+<em>
 | data-type         | standard  | custom :"data-*" prefixed  |
 --------------------------------------------------------------
 | link (default)    | title     | data-title                 |
@@ -80,11 +80,13 @@ Here are the mapping of attributes depending on you data-type parameter
 |                   | image     | data-source                |
 | quote             | title     | data-quote                 |
 |                   |           | data-source                |
+</em>
 
 
-| First Header  | Second Header | Third Header         |
-| :------------ | :-----------: | -------------------: |
-| First row     | Data          | Very long data entry |
-| Second row    | **Cell**      | *Cell*               |
-| Third row     | Cell that spans across two columns  ||
-&#124;
+<dl>
+  <dt>Definition list</dt>
+  <dd>Is something people use sometimes.</dd>
+
+  <dt>Markdown in HTML</dt>
+  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+</dl>
