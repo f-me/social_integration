@@ -70,7 +70,7 @@ You can also specify the URL that it links to:
 
 Here are the mapping of attributes depending on you data-type parameter
 
-<pre>
+
 | data-type         | standard  | custom :"data-*" prefixed  |
 --------------------------------------------------------------
 | link (default)    | title     | data-title                 |
@@ -80,4 +80,3 @@ Here are the mapping of attributes depending on you data-type parameter
 |                   | image     | data-source                |
 | quote             | title     | data-quote                 |
 |                   |           | data-source                |
-</pre>
