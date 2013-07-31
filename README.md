@@ -80,3 +80,10 @@ Here are the mapping of attributes depending on you data-type parameter
 |                   | image     | data-source                |
 | quote             | title     | data-quote                 |
 |                   |           | data-source                |
+
+
+| First Header  | Second Header | Third Header         |
+| :------------ | :-----------: | -------------------: |
+| First row     | Data          | Very long data entry |
+| Second row    | **Cell**      | *Cell*               |
+| Third row     | Cell that spans across two columns  ||
