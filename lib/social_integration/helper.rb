@@ -1,6 +1,7 @@
 # coding: utf-8
 module SocialIntegration
   module Helper
+
     def social_integration_tag(title = "", opts = {})
       extra_data = {}
       rel = opts[:rel]
@@ -20,5 +21,23 @@ module SocialIntegration
       html << "</div>"
       raw html.join("\n")
     end
+
+    [:twitter, :facebook, :vkontakte].each do |name|
+       define_method "post_to_#{name}" do |title = "", opts = {}|
+          extra_data = {}
+          rel = opts[:rel]
+          html = []
+          html << "<div class='social-integration' data-title='#{h title}' data-img='#{opts[:image]}' data-url='#{opts[:url]}'>"
+          link_title = t "social_integration.share_to", :name => t("social_integration.#{name.downcase}")
+          html << link_to("","#", {:rel => ["nofollow", rel],
+                                  "data-site" => name,
+                                  :class => "social-integration-#{name}",
+                                  :onclick => "return SocialIntegration.share(this);",
+                                  :title => h(link_title)}.merge(extra_data))
+          html << "</div>"
+          raw html.join("\n")
+       end
+    end
+
   end
 end
