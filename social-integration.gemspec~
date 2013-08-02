@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = SocialIntegration::VERSION
   s.authors     = ["Aslanbek Abazov"]
   s.email       = ["a.abazov@at-consulting.ru"]
-  s.homepage    = "no homepage"
+  s.homepage    = "gitolite@git.egov.at-consulting.ru:social-integration.git"
   s.summary     = %q{Helper for add social share button in your Rails app. Twitter, Facebook, Vkontakte}
   s.description = %q{Helper for add social share button in your Rails app. Twitter, Facebook, Vkontakte}
 
