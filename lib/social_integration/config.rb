@@ -8,8 +8,8 @@ module SocialIntegration
   
   class Config
     # enable social sites to share, 
-    # * default : twitter facebook
-    # * site support: twitter facebook
+    # * default : twitter facebook vkontakte
+    # * site support: twitter facebook vkontakte
     attr_accessor :allow_sites
     
     def initialize
